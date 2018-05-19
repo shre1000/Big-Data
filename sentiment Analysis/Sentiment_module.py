@@ -1,4 +1,4 @@
-#Shreyasi Kokamthankar
+
 # This is sentiment module.
 # This is the second file to execute. 
 
@@ -37,14 +37,14 @@ class VoteClassifier(ClassifierI):
         return conf
 
 
-documents_f = open("/Users/kokam/Documents/files_or_661/pickled_algos/documents.pickle", "rb")
+documents_f = open("/Users/documents.pickle", "rb")
 documents = pickle.load(documents_f)
 documents_f.close()
 
 
 
 
-word_features5k_f = open("/Users/kokam/Documents/files_or_661/pickled_algos/word_features5k.pickle", "rb")
+word_features5k_f = open("/Users/word_features5k.pickle", "rb")
 word_features = pickle.load(word_features5k_f)
 word_features5k_f.close()
 
@@ -59,38 +59,38 @@ def find_features(document):
 
 
 
-featuresets_f = open("/Users/kokam/Documents/files_or_661/pickled_algos/featuresets.pickle", "rb")
+featuresets_f = open("/Users/featuresets.pickle", "rb")
 featuresets = pickle.load(featuresets_f)
 featuresets_f.close()
 
 
-open_file = open("/Users/kokam/Documents/files_or_661/pickled_algos/originalnaivebayes5k.pickle", "rb")
+open_file = open("/Users/originalnaivebayes5k.pickle", "rb")
 classifier = pickle.load(open_file)
 open_file.close()
 
 
-open_file = open("/Users/kokam/Documents/files_or_661/pickled_algos/MNB_classifier5k.pickle", "rb")
+open_file = open("/Users/MNB_classifier5k.pickle", "rb")
 MNB_classifier = pickle.load(open_file)
 open_file.close()
 
 
 
-open_file = open("/Users/kokam/Documents/files_or_661/pickled_algos/BernoulliNB_classifier5k.pickle", "rb")
+open_file = open("/Users/BernoulliNB_classifier5k.pickle", "rb")
 BernoulliNB_classifier = pickle.load(open_file)
 open_file.close()
 
 
-open_file = open("/Users/kokam/Documents/files_or_661/pickled_algos/LogisticRegression_classifier5k.pickle", "rb")
+open_file = open("/Users/LogisticRegression_classifier5k.pickle", "rb")
 LogisticRegression_classifier = pickle.load(open_file)
 open_file.close()
 
 
-open_file = open("/Users/kokam/Documents/files_or_661/pickled_algos/LinearSVC_classifier5k.pickle", "rb")
+open_file = open("/Users/LinearSVC_classifier5k.pickle", "rb")
 LinearSVC_classifier = pickle.load(open_file)
 open_file.close()
 
 
-open_file = open("/Users/kokam/Documents/files_or_661/pickled_algos/SGDC_classifier5k.pickle", "rb")
+open_file = open("/Users/SGDC_classifier5k.pickle", "rb")
 SGDC_classifier = pickle.load(open_file)
 open_file.close()
 
