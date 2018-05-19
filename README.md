@@ -1,6 +1,6 @@
 This repository contains project related to big data. 
 
-1. Snetiment Analysis: 
+1. Sentiment Analysis: 
 It contains project done using normal python and single computer.
 
 2. tweets.sql:
