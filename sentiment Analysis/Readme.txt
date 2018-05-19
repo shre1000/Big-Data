@@ -1,4 +1,4 @@
-This project takes live Twitter stream as an input and classifies tweets using machine learning algorithms into positive and negative and plots live graph using matplotlib. This project is developed using NLTK, python. Machine learning algorithms used are Naive Bayes, Logistic Regression and Linear SVC. Voting mechanism is used to classify tweets.
+This project takes live Twitter stream as an input and classifies tweets using machine learning algorithms into positive and negative and plots live graph using matplotlib. This project is developed using NLTK and python. Machine learning algorithms used are Naive Bayes, Logistic Regression and Linear SVC. Voting mechanism is used to classify tweets.
 
 Training.py : Training module
 Sentiment_module.py : sentiment classification module
@@ -8,7 +8,7 @@ graph.py : contains module for plotting graph.
 
 How to compile and run:
 
-Requirement:
+Requirements:
 Ubuntu
 python
 NLTK modules
